@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<modDesc descVersion="37">
+    <author>Team FSI Modding</author>
+    <version>1.1.0</version>
+    <title>
+        <en>KF7-300</en>
+    </title>
+    <description>
+        <en>
+            <![CDATA[Alpego KF7-300 Super Cracker - Subsoiler with hydraulic franter roller.
+
+Price: 13500
+working speed: 12/15 kmh
+Required power: 180 hp
+Working width: 3 m
+Maintenance: 5 € / day
+
+Tool with double work option: with franter roller up working in depth as plough function, with franter roller down working on surface, as a cultivator.
+
+Changelog: 1.1.0
+- Translations improvement
+- Several small fixes
+]]>
+        </en>
+        <de>
+            <![CDATA[Alpego KF7-300 Super Cracker - Tiefenlockerer mit hydraulischer Franter-Walze.
+
+Preis: 13500 €
+Arbeitsgeschwindigkeit: 12/15 kmh
+Benötigte Leistung: 180 hp
+Arbeitsbreite: 3 m
+Unterhaltskosten: 5 € / Tag
+
+Dieses Gerät kann sowohl als Grubber, wie auch Pflug genutzt werden. Ist die Rolle oben, ist die Pflugfunktion aktiv - Ist die Rolle unten, dann wirkt der Tiefenlockerer nur als Grubber.
+
+Changelog: 1.1.0
+- Amélioration des traductions
+- Plusieurs petits correctifs
+]]>
+        </de>
+        <fr>
+            <![CDATA[Alpego KF7-300 Super Cracker - Décompacteur équipé du double rouleau franter à réglage hydraulique.
+
+Price: 13500 €
+working speed: 12/15 kmh
+Required power: 180 hp
+Working width: 3 m
+Maintenance: 5 € / day
+
+Ce décompacteur a une chance de faire un double-tricot, avec des rouleaux œuvres riches en profondeur avec la fonction de charrue, avec de faibles rouleaux la profondeur de travail est réduite et la fonction est le cultivateur.
+
+Changelog: 1.1.0
+- Verbesserungen der Übersetzungen
+- Mehrere kleine Korrekturen
+]]>
+        </fr>
+    </description>
+    <iconFilename>icon.dds</iconFilename>
+    <multiplayer supported="true"/>
+    <inputBindings>
+        <input name="SUPPORT_UP_DOWN" category="VEHICLE" key1="KEY_o" button=""/>
+        <input name="RULLI_UP" category="VEHICLE" key1="KEY_b" button=""/>
+        <input name="RULLI_DOWN" category="VEHICLE" key1="KEY_n" button=""/>
+    </inputBindings>
+    <l10n>
+        <text name="input_SUPPORT_UP_DOWN">
+            <en>Support Up/Down</en>
+            <de>Unterstützung Up/Down</de>
+            <fr>Soutien élevé/basse</fr>
+            <it>Alza/Abbassa supporto</it>
+        </text>
+        <text name="input_RULLI_UP">
+            <en>Franter roller Up</en>
+            <de>Franter-Walzen Up</de>
+            <fr>Rouleau franter pull up</fr>
+            <it>Alza Rulli franter</it>
+        </text>
+        <text name="input_RULLI_DOWN">
+            <en>Franter roller Down</en>
+            <de>Franter-Walzen Down</de>
+            <fr>Rouleau franter abattre</fr>
+            <it>Abbassa Rulli franter</it>
+        </text>
+        <text name="function_subsoilers">
+            <en>A subsoiler can be used to loosen and break up soil in deep.</en>
+            <de>Ein Tieflockerer kann verwendet werden, um Boden in der Tiefe zu lösen und aufzubrechen.</de>
+            <fr>A décompacteur peut être utilisé pour desserrer et briser le sol en profondeur.</fr>
+            <it>Un ripuntatore può essere utilizzato per rompere e sgretolare il terreno in profondità.</it>
+        </text>
+        <text name="function_techspec">
+            <en>Power 160=300 hp - 7 shank with gradual penetration angle, work width 3000mm, depth max 650mm, franter roller with hydraulical adjustment, wiegth 1480 kg</en>
+            <de>Für Traktoren von 160=300 hp - 7 Zinken mit progressivem Anstellwinkel, Arbeitsbreite 3000mm, Tiefe max 650mm, franter-walzen mit hydraulischer Einstellung verfügbar, Gewicht 1480 kg</de>
+            <fr>Pour des tracteurs allant de 160 à 300 ch. - 7 Dent avec angle de pénétration progressif, Largeur de travail 3000mm, Profondeur max 650mm, double rouleau franter à réglage hydraulique, poids 1480 kg</fr>
+            <it>Potenza richiesta 160=300 CV - 7 ancore - Larghezza di lavorazione 3000mm, Profondità max 650mm, franter H20 con regolazione di profondità idraulica, Peso 1480 kg</it>
+        </text>
+        <text name="piedini_low">
+            <en>Is better to lower support before detach</en>
+            <de>Ist besser, die Unterstützung vor dem Ablösen zu senken</de>
+            <fr>Est préférable de réduire le support avant de détacher</fr>
+            <it>Sarebbe meglio abbassare i piedini prima di scollegare l'attrezzo</it>
+        </text>
+        <text name="piedini_high">
+            <en>Remember to set support up, or you broke the implement</en>
+            <de>Denken Sie daran, die Unterstützung zu setzen, oder Sie brachen das Gerät</de>
+            <fr>N'oubliez pas de mettre le support en place, ou vous avez brisé l'outil</fr>
+            <it>Ricorda di sollevare i piedini di supporto o romperai l'attrezzo</it>
+        </text>
+        <text name="info_piedinihowto">
+            <en>On both side of implement move support with O key</en>
+            <de>Auf beiden Seiten des Gerätes mit der O-Taste stützen</de>
+            <fr>Sur les deux côtés de l'outil déplacer le support avec la touche O</fr>
+            <it>Ai lati dell'attrezzo muovi i supporti con il tasto O</it>
+        </text>
+        <text name="info_piedini_run">
+            <en>You need to move support to work!</en>
+            <de>Sie müssen die Unterstützung zu bewegen, um Arbeit!</de>
+            <fr>élevé le support pour travailler!</fr>
+            <it>Solleva i supporti per lavorare!</it>
+        </text>
+    </l10n>
+    <specializations>
+        <specialization name="Alpego" className="Alpego" filename="specializations/Alpego.lua"/>
+        <specialization name="cultiplough" className="CultiPlough" filename="specializations/CultiPlough.lua"/>
+    </specializations>
+    <vehicleTypes>
+        <type name="alpego" className="Vehicle" filename="$dataS/scripts/vehicles/Vehicle.lua">
+            <specialization name="attacherJoints" />
+            <specialization name="lights" />
+            <specialization name="workArea" />
+            <specialization name="workParticles" />
+            <specialization name="speedRotatingParts" />
+            <specialization name="attachable" />
+            <specialization name="powerConsumer" />
+            <specialization name="animatedVehicle" />
+            <specialization name="cylindered" />
+            <specialization name="foldable" />
+            <specialization name="washable" />
+            <specialization name="mountable" />
+            <specialization name="cultiplough"/>
+            <specialization name="Alpego"/>
+        </type>
+    </vehicleTypes>
+    <storeItems>
+        <storeItem xmlFilename="Alpego_KF7_300.xml"/>
+    </storeItems>
+    <brands>
+        <brand name="ALPEGO" title="Alpego" image="store/brand_Alpego.dds"/>
+    </brands>
+</modDesc>
