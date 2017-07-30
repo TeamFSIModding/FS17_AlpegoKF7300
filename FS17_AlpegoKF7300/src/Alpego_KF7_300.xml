@@ -11,7 +11,7 @@
             <function>$l10n_function_subsoilers</function>
             <function>$l10n_function_techspec</function>
         </functions>
-        <image>textures/store/store_Alpego.dds</image>
+        <image>store/store_Alpego.dds</image>
         <price>13500</price>
         <dailyUpkeep>5</dailyUpkeep>
         <lifetime>600</lifetime>
