@@ -2,7 +2,7 @@
 <vehicle type="plough">
     <annotation>Copyright (C) GIANTS Software GmbH, All Rights Reserved.</annotation>
     <storeData>
-        <name>KF7-300</name>
+        <name>Alpego KF7-300</name>
         <specs>
             <neededPower>180</neededPower>
             <workingWidth>3.0</workingWidth>
@@ -16,7 +16,7 @@
         <dailyUpkeep>5</dailyUpkeep>
         <lifetime>600</lifetime>
         <rotation>0</rotation>
-        <brand>LIZARD</brand>
+        <brand>ALPEGO</brand>
         <category>plows</category>
         <fieldJob sizeCategory="2" typeCategory="plough"/>
         <vertexBufferMemoryUsage>1141128</vertexBufferMemoryUsage>
@@ -56,15 +56,15 @@
     </groundParticleAnimations>
     <animations>
         <animation name="moveSupport">
-            <part node="0>6|6" startTime="0" endTime="0.01" visibility="true"/>
-            <part node="0>6|6" startTime="0.01" endTime="0.3" visibility="false"/>
-            <part node="0>6|6" startTime="0.3" endTime="0.31" visibility="true"/>
-            <part node="0>6|6" startTime="0" endTime="0.3" endTrans="-1.115 0.084 -0.642" startTrans="-1.115 -0.005 -0.642"/>
+            <part node="0>6|4" startTime="0" endTime="0.01" visibility="true"/>
+            <part node="0>6|4" startTime="0.01" endTime="0.3" visibility="false"/>
+            <part node="0>6|4" startTime="0.3" endTime="0.31" visibility="true"/>
+            <part node="0>6|4" startTime="0" endTime="0.3" endTrans="-1.115 0.084 -0.642" startTrans="-1.115 -0.005 -0.642"/>
             <part node="0>6|1" startTime="0" endTime="0.3" endTrans="-1.136 -0.854 -0.633" startTrans="-1.136 0.021 -0.633"/>
-            <part node="0>6|5" startTime="0" endTime="0.01" visibility="true"/>
-            <part node="0>6|5" startTime="0.01" endTime="0.3" visibility="false"/>
-            <part node="0>6|5" startTime="0.3" endTime="0.31" visibility="true"/>
-            <part node="0>6|5" startTime="0" endTime="0.3" endTrans="1.126 0.108 -0.666" startTrans="1.126 0.019 -0.666"/>
+            <part node="0>6|3" startTime="0" endTime="0.01" visibility="true"/>
+            <part node="0>6|3" startTime="0.01" endTime="0.3" visibility="false"/>
+            <part node="0>6|3" startTime="0.3" endTime="0.31" visibility="true"/>
+            <part node="0>6|3" startTime="0" endTime="0.3" endTrans="1.126 0.108 -0.666" startTrans="1.126 0.019 -0.666"/>
             <part node="0>6|2" startTime="0" endTime="0.3" endTrans="1.136 -0.853 -0.633" startTrans="1.136 0.022 -0.633"/>
         </animation>
         <animation name="moveRollers">

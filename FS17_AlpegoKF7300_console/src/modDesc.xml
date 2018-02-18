@@ -1,9 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
-<modDesc descVersion="35">
+<modDesc descVersion="39">
     <author>Team FSI Modding</author>
-    <version>1.1.0</version>
+    <version>1.2.0.0</version>
     <title>
-        <en>KF7-300</en>
+        <en>Alpego KF7-300</en>
+        <de>Alpego KF7-300</de>
+        <fr>Alpego KF7-300</fr>
     </title>
     <description>
         <en>
@@ -56,4 +58,7 @@ Maintenance: 5 € / day
     <storeItems>
         <storeItem xmlFilename="Alpego_KF7_300.xml"/>
     </storeItems>
+    <brands>
+        <brand name="ALPEGO" title="Alpego" image="brand_Alpego.dds"/>
+    </brands>
 </modDesc>
