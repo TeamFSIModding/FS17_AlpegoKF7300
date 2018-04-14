@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="7.1.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="6" filename="shaders/vehicleShader.xml" relativePath="true"/>
+    <File fileId="9" filename="shared/default_normal.dds" relativePath="true"/>
+    <File fileId="12" filename="shared/default_normal.png" relativePath="true"/>
+    <File fileId="5" filename="shared/rough_cube.dds" relativePath="true"/>
+    <File fileId="3" filename="textures/Alpego_KF7-350_Normals.dds" relativePath="true"/>
+    <File fileId="4" filename="textures/Alpego_KF7-350_Specular.dds" relativePath="true"/>
+    <File fileId="8" filename="textures/Alpego_KF7-350_adstrip_diffuse.dds" relativePath="true"/>
+    <File fileId="10" filename="textures/Alpego_KF7-350_adstrip_specular.dds" relativePath="true"/>
+    <File fileId="2" filename="textures/Alpego_KF7-350_diffuse.dds" relativePath="true"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="default_mat" materialId="6" diffuseColor="0.494118 0.494118 0.494118 1" ambientColor="1 1 1">
+      <Normalmap fileId="9"/>
+    </Material>
+    <Material name="UnnamedMaterial" materialId="7" diffuseColor="1 1 1 1" ambientColor="1 1 1">
+    </Material>
+    <Material name="lambert" materialId="8" diffuseColor="0.494118 0.494118 0.494118 1" ambientColor="1 1 1">
+    </Material>
+    <Material name="default_mat" materialId="11" diffuseColor="0.494118 0.494118 0.494118 1" ambientColor="1 1 1">
+      <Normalmap fileId="12"/>
+    </Material>
+    <Material name="decals" materialId="10" ambientColor="1 1 1" cosPower="20" specularColor="1 1 1" customShaderId="6">
+      <Texture fileId="8"/>
+      <Normalmap fileId="9"/>
+      <Glossmap fileId="10"/>
+      <CustomParameter name="RDT" value="1 1 20 20"/>
+    </Material>
+    <Material name="Alpego_mat" materialId="12" ambientColor="1 1 1" cosPower="50" specularColor="1 1 1" customShaderId="6">
+      <Texture fileId="2"/>
+      <Normalmap fileId="3"/>
+      <Glossmap fileId="4"/>
+      <Reflectionmap fileId="5" lodDistanceScaling="0.5" viewDistanceScaling="0.5" type="cube" scaling="1" refractiveIndex="1" bumpScale="0.5" shapesObjectMask="4294967295" lightsObjectMask="4294967295"/>
+      <CustomParameter name="RDT" value="1 1 20 20"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="Alpego_KF7.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <Shape shapeId="1" name="Alpego" dynamic="true" compound="true" collisionMask="8194" density="0.65" clipDistance="300" nodeId="34" materialIds="7" nonRenderable="true" distanceBlending="false">
+      <TransformGroup name="startIndex" translation="1.55 0.15 0.7" nodeId="35"/>
+      <TransformGroup name="widthIndex" translation="-1.5 0.15 0.7" nodeId="36"/>
+      <TransformGroup name="heightIndex" translation="1.42 0.489 -1" nodeId="37"/>
+      <TransformGroup name="attacherJoint" translation="2.90802e-17 0.897905 1.0236" rotation="-0 90 0" nodeId="38"/>
+      <TransformGroup name="topReferenceNode" translation="0 1.67465 1.029" nodeId="39"/>
+      <TransformGroup name="Attacco_rulli" translation="2.8256e-10 1.305 -1.005" rotation="90 -82 -90" nodeId="40"/>
+      <Shape shapeId="2" name="body" translation="0 0.944 0" nodeId="41" materialIds="12" castsShadows="true" receiveShadows="true">
+        <Shape shapeId="3" name="decals1" translation="0 0.457 0.614" clipDistance="30" nodeId="42" materialIds="10" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+        <Shape shapeId="4" name="Piede_dx" translation="-1.13596 -0.853775 -0.632916" nodeId="43" materialIds="12" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="5" name="Collision_piede_dx" translation="-0.0045469 0.013 -0.3" compoundChild="true" collisionMask="8194" nodeId="44" materialIds="8" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+        </Shape>
+        <Shape shapeId="6" name="Piede_sx" translation="1.13614 -0.853169 -0.632916" nodeId="45" materialIds="12" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="7" name="Collision_piede_sx" translation="-0.000326258 0.013 -0.3" compoundChild="true" collisionMask="8194" nodeId="46" materialIds="8" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+        </Shape>
+        <TransformGroup name="dummy" nodeId="47"/>
+        <TransformGroup name="dummy" nodeId="48"/>
+        <Shape shapeId="8" name="perni3" translation="-1.07402 0.113129 -0.661868" nodeId="49" materialIds="12" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="9" name="pCylinder4" translation="-0.081815 -0.000773737 0.0223116" nodeId="50" materialIds="12" castsShadows="true" receiveShadows="true"/>
+        </Shape>
+        <Shape shapeId="10" name="perni2" translation="1.07961 0.11435 -0.617277" nodeId="51" materialIds="12" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="11" name="pCylinder3" translation="0.0778752 -0.00199424 -0.0222794" nodeId="52" materialIds="12" castsShadows="true" receiveShadows="true"/>
+        </Shape>
+        <Shape shapeId="8" name="perni1" translation="-0.408943 -0.0448808 1.00175" nodeId="53" materialIds="12" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="12" name="pCylinder4" translation="-0.081815 -0.000773737 0.0223116" nodeId="54" materialIds="12" castsShadows="true" receiveShadows="true"/>
+        </Shape>
+        <Shape shapeId="10" name="perni" translation="0.413141 -0.0436603 1.04634" nodeId="55" materialIds="12" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="13" name="pCylinder3" translation="0.0778752 -0.00199424 -0.0222794" nodeId="56" materialIds="12" castsShadows="true" receiveShadows="true"/>
+        </Shape>
+        <Shape shapeId="14" name="bulloni2" translation="0 0.362 -1.01" rotation="20.51 0 0" nodeId="57" materialIds="12" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="15" name="bulloni3" translation="0 0.362 -1.01" rotation="20.51 -0 0" nodeId="58" materialIds="12" castsShadows="true" receiveShadows="true"/>
+      </Shape>
+      <TransformGroup name="aiLeftMarker" translation="1.469 0 1.03211" nodeId="59"/>
+      <TransformGroup name="aiRightMarker" translation="-1.469 0 1.03074" nodeId="60"/>
+      <TransformGroup name="aiBackMarker" translation="0 0.489 -1.94439" nodeId="61"/>
+      <TransformGroup name="soilAnimationNode" translation="0 0.4 0" nodeId="62"/>
+      <TransformGroup name="groundReferenceNode" nodeId="63"/>
+      <TransformGroup name="Martinetto" translation="0 1.681 -1.14" rotation="-72.092 0 0" nodeId="64"/>
+      <TransformGroup name="workArea" nodeId="65">
+        <TransformGroup name="start" translation="1.49 0.15 0.7" nodeId="66"/>
+        <TransformGroup name="width" translation="-1.49 0.15 0.7" nodeId="67"/>
+        <TransformGroup name="height" translation="1.42 0.15 -1" nodeId="68"/>
+        <TransformGroup name="groundReferenceNode" translation="0 0.462 0" nodeId="69"/>
+        <TransformGroup name="depthNode" translation="0 0.13 0" nodeId="70"/>
+      </TransformGroup>
+      <TransformGroup name="ai" translation="0 0.873314 1.56183" nodeId="71">
+        <TransformGroup name="aiMarker" translation="0 -0.873314 -1.56183" nodeId="72">
+          <TransformGroup name="leftMarker" translation="1.49 0 1.031" nodeId="73"/>
+          <TransformGroup name="rightMarker" translation="-1.49 0 1.031" nodeId="74"/>
+          <TransformGroup name="backMarker" translation="0 0 -1.944" nodeId="75"/>
+        </TransformGroup>
+        <TransformGroup name="sizgMarker1" translation="0 -0.873314 -1.56183" nodeId="76">
+          <TransformGroup name="leftMarker" translation="1.944 0 1.108" nodeId="77"/>
+          <TransformGroup name="rightMarker" translation="-1.944 0 1.108" nodeId="78"/>
+          <TransformGroup name="backMarker" translation="0 0 -2.30537" nodeId="79"/>
+        </TransformGroup>
+        <Shape shapeId="16" name="trafficCollisionTrigger" translation="0 -0.136865 -2.91411" visibility="false" kinematic="true" compound="true" trigger="true" collisionMask="1056768" nodeId="80" materialIds="8" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      </TransformGroup>
+      <TransformGroup name="soilEffect1" translation="0 0.146382 0.289" nodeId="81">
+        <Shape shapeId="17" name="centerAnimation" translation="0 -0.159 -0.324" clipDistance="100" nodeId="82" materialIds="6" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="18" name="dustEmitShape1" translation="0 0.591115 -1.67951" clipDistance="100" nodeId="83" materialIds="8" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+        <Shape shapeId="19" name="soilEmitShape1" clipDistance="100" nodeId="84" materialIds="8" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+        <Shape shapeId="19" name="soilEmitShape3" translation="0 -0.140231 0" clipDistance="100" nodeId="85" materialIds="8" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+        <Shape shapeId="20" name="soilEmitShape" translation="2.02709 0.379242 -0.797063" rotation="90 86.16 90" scale="1 1 1.31" clipDistance="100" nodeId="86" materialIds="11" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      </TransformGroup>
+      <TransformGroup name="forceNode" nodeId="87">
+        <Shape shapeId="5" name="heightCollision" translation="-0.691356 0.6 0.584" rotation="-90 70 -90" compoundChild="true" collisionMask="8194" nodeId="88" materialIds="8" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+        <Shape shapeId="5" name="heightCollision" translation="-0.691356 0.6 -0.358" rotation="-90 70 -90" compoundChild="true" collisionMask="8194" nodeId="89" materialIds="8" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      </TransformGroup>
+    </Shape>
+    <Camera name="camera" translation="9.28165 3.69347 9.44496" rotation="-4.12641 32.9328 -4.76829e-08" nodeId="90" fov="60" nearClip="0.01" farClip="10000" orthographicHeight="1"/>
+  </Scene>
+
+</i3D>

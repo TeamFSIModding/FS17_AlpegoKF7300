@@ -31,7 +31,7 @@
     <powerConsumer neededPtoPower="0" forceNode="0>" forceFactor="10" maxForce="40"/>
     <speedLimit value="12"/>
     <workAreas count="1">
-        <workArea startIndex="0>13|0" widthIndex="0>13|1" heightIndex="0>13|2" refNodeIndex="0" type="plough" chargeValue="1" disableBackwards="true" foldMinLimit="0" foldMaxLimit="0.1"/>
+        <workArea startIndex="0>13|0" widthIndex="0>13|1" heightIndex="0>13|2" refNodeIndex="0" type="plough" chargeValue="1" disableBackwards="true"/>
     </workAreas>
     <groundReferenceNodes>
         <groundReferenceNode index="0>13|3" threshold="0.5" depthNode="0>13|4"/>
@@ -54,6 +54,7 @@
             <node index="0>15|4" particleType="SOIL_BIG_CHUNKS" refNodeIndex="0" worldSpace="false"/>
         </groundParticle>
     </groundParticleAnimations>
+    <rotateLeftToMax value="true"/>
     <animations>
         <animation name="moveSupport">
             <part node="0>6|4" startTime="0" endTime="0.01" visibility="true"/>
