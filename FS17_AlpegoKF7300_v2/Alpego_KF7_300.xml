@@ -12,7 +12,7 @@
             <function>$l10n_function_techspec</function>
         </functions>
         <image>store_Alpego.png</image>
-        <price>13500</price>
+        <price>11000</price>
         <dailyUpkeep>5</dailyUpkeep>
         <lifetime>600</lifetime>
         <rotation>0</rotation>
@@ -40,12 +40,11 @@
     <ploughSound file="$data/sounds/ploughSound.wav" pitchOffset="0.45" volume="1.2" indoorVolumeFactor="0.65"/>
     <cylinderedHydraulicSound file="$data/sounds/cultivatorHydraulic.wav" volume="1.00" indoorVolumeFactor="0.45"/>
     <inputAttacherJoints>
-        <!-- <inputAttacherJoint index="0>3" jointType="implement" topReferenceNode="0>4" lowerDistanceToGround="0.4" upperDistanceToGround="1.3" moveTime="2.5" canTurnOnImplement="false"/> -->
         <inputAttacherJoint index="0>3" jointType="implement" topReferenceNode="0>4" lowerDistanceToGround="0.15" upperDistanceToGround="1.3" moveTime="2.5" canTurnOnImplement="false"/>
     </inputAttacherJoints>
     <onlyActiveWhenLowered value="true"/>
     <attacherJoints>
-            <attacherJoint index="0>5"  upperRotationOffset="15" upperRotLimit="0 0 1" allowsLowering="false" isDefaultLowered="true" lockUpRotLimit="true" ptoSkipVehicle="true">
+        <attacherJoint index="0>5"  upperRotationOffset="15" upperRotLimit="0 0 1" allowsLowering="false" isDefaultLowered="true" lockUpRotLimit="true" ptoSkipVehicle="true">
             <schema position="0.5 0" rotation="0" invertX="false" liftedOffset="0 0"/>
         </attacherJoint>
     </attacherJoints>
