@@ -2,7 +2,7 @@
 <vehicle type="cultivator">
     <annotation>Copyright (C) GIANTS Software GmbH, All Rights Reserved.</annotation>
     <storeData>
-        <name>Rulli Alpego KF7</name>
+        <name>KF7-300 Franter</name>
         <specs>
             <neededPower>40</neededPower>
             <workingWidth>3.0</workingWidth>
@@ -32,7 +32,7 @@
         <workArea startIndex="0>0|1|4|0|0" widthIndex="0>0|1|4|0|1" heightIndex="0>0|1|4|0|2" refNodeIndex="0" type="cultivator" chargeValue="1" foldMinLimit="0" foldMaxLimit="0.1"/>
     </workAreas>
     <onlyActiveWhenLowered value="true" />
-    <powerConsumer neededPtoPower="0" forceNode="0>" forceFactor="0" maxForce="0"/>
+    <powerConsumer neededPtoPower="0" forceNode="0>" forceFactor="10" maxForce="5"/>
     <cultivatorSound file="$data/sounds/cultivatorSound.wav" pitchOffset="1.00" volume="1.00" indoorVolumeFactor="0.55"/>
     <cylinderedHydraulicSound file="$data/sounds/cultivatorHydraulic.wav" pitchOffset="1.00" volume="1.00" indoorVolumeFactor="0.75"/>
     <inputAttacherJoints>

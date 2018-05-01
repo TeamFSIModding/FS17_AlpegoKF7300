@@ -2,9 +2,9 @@
 <vehicle type="plough">
     <annotation>Copyright (C) GIANTS Software GmbH, All Rights Reserved.</annotation>
     <storeData>
-        <name>Alpego KF7-300</name>
+        <name>KF7-300</name>
         <specs>
-            <neededPower>180</neededPower>
+            <neededPower>160</neededPower>
             <workingWidth>3.0</workingWidth>
         </specs>
         <functions>
@@ -28,7 +28,7 @@
     <typeDesc>$l10n_typeDesc_plough</typeDesc>
     <filename>Alpego_KF7.i3d</filename>
     <size width="4.5" length="3"/>
-    <powerConsumer neededPtoPower="0" forceNode="0>16" forceFactor="10" maxForce="40"/>
+    <powerConsumer neededPtoPower="0" forceNode="0>16" forceFactor="10" maxForce="35"/>
     <speedLimit value="12"/>
     <workAreas count="1">
         <workArea startIndex="0>13|0" widthIndex="0>13|1" heightIndex="0>13|2" refNodeIndex="0" type="plough" chargeValue="1" disableBackwards="true" />
