@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<modDesc descVersion="39">
+	<author>{package_author}</author>
+	<version>{package_version}</version>
+	<title>
+		<en>Alpego KF7-300</en>
+	</title>
+	<description>
+		<en>
+			<![CDATA[Alpego KF7-300 Super Cracker - Subsoiler with optional hydraulic franter roller.
+
+Price: 11000 - 2500 €
+working speed: 12 kmh
+Required power: 160 - 40 hp
+Working width: 3 m
+Maintenance: 5 - 3 € / day
+
+Tool with double work option: with franter roller up working in depth as plough function, with franter roller down working on surface, as a cultivator.
+Franter rollers are optional and must be purchased separately in the cultivator section.
+
+Changelog {package_version}
+- now with separated franter roller buyable as a cultivator
+]]>
+		</en>
+		<de>
+			<![CDATA[Alpego KF7-300 Super Cracker - Tiefenlockerer mit optionale hydraulischer Franter-Walze.
+
+Preis: 11000 - 2500 €
+Arbeitsgeschwindigkeit: 12 kmh
+Benötigte Leistung: 160 - 40 hp
+Arbeitsbreite: 3 m
+Unterhaltskosten: 5 -3 € / Tag
+
+Dieses Gerät kann sowohl als Grubber, wie auch Pflug genutzt werden. Ist die Rolle oben, ist die Pflugfunktion aktiv - Ist die Rolle unten, dann wirkt der Tiefenlockerer nur als Grubber.
+Franter Walzen sind optionale und müssen separat im Grubberbereich gekauft werden.
+
+Changelog {package_version}
+- now with separated franter roller buyable as a cultivator
+]]>
+		</de>
+		<fr>
+			<![CDATA[Alpego KF7-300 Super Cracker - Décompacteur équipé du double rouleau franter à réglage hydraulique en option.
+
+Price: 11000 - 2500 €
+working speed: 12 kmh
+Required power: 160 - 40 hp
+Working width: 3 m
+Maintenance: 5 - 3 € / day
+
+Ce décompacteur a une chance de faire un double-tricot, avec des rouleaux œuvres riches en profondeur avec la fonction de charrue, avec de faibles rouleaux la profondeur de travail est réduite et la fonction est le cultivateur.
+Les rouleaux sont facultatifs et doivent être achetés séparément dans la section de cultivateur.
+
+Changelog {package_version}
+- now with separated franter roller buyable as a cultivator
+]]>
+		</fr>
+		<it>
+			<![CDATA[Alpego KF7-300 Super Cracker - Ripuntatore a 7 ancore con rulli franter idraulici
+
+Prezzo: 11000 - 2500 €
+velocità di lavoro: 12 kmh
+Potenza richiesta: 160 - 40 hp
+Larghezza di lavoro: 3 m
+Manutenzione giornaliera: 5 - 3 € / giorno
+
+Questo attrezzo ha la possibilità di effettuare una doppia lavorazione, con i rulli alti lavora in profondità con funzione aratro, con i rulli bassi la profondità di lavoro è ridotta e la funzione è di coltivatore;
+i rulli sono opzionali e devono essere acquistati a parte nella sezione coltivatori.
+
+Changelog {package_version}
+- now with separated franter roller buyable as a cultivator
+]]>
+		</it>
+	</description>
+	<iconFilename>icon.dds</iconFilename>
+	<multiplayer supported="true"/>
+	<l10n>
+		<text name="function_subsoilers">
+			<en>A subsoiler can be used to crumble and break up soil in deep.</en>
+			<de>Ein Tieflockerer kann verwendet werden, um Boden in der Tiefe zu lösen und aufzubrechen.</de>
+			<fr>A décompacteur peut être utilisé pour desserrer et briser le sol en profondeur.</fr>
+			<it>Un ripuntatore può essere utilizzato per rompere e sgretolare il terreno in profondità.</it>
+		</text>
+		<text name="function_techspec">
+			<en>Power 160/300 HP - 7 anchors with gradual penetration angle, work width 3000mm, max dteph 650mm, wiegth 1480 kg, optional franter H20 with hydraulical regulation</en>
+			<de>Für Traktoren von 160/300 HP - 7 Zinken mit progressivem Anstellwinkel, Arbeitsbreite 3000mm, Tiefe max 650mm, franter-walzen mit hydraulischer Einstellung verfügbar, Gewicht 1480 kg</de>
+			<fr>Pour des tracteurs allant de 160 à 300 CH. - 7 Dent avec angle de pénétration progressif, Largeur de travail 3000mm, Profondeur max 650mm, double rouleau franter à réglage hydraulique, poids 1480 kg</fr>
+			<it>Potenza richiesta 160/300 CV - 7 ancore - Larghezza di lavorazione 3000mm, Profondità max 650mm, franter H20 con regolazione di profondità idraulica, Peso 1480 kg</it>
+		</text>
+	</l10n>
+	<storeItems>
+		<storeItem xmlFilename="Alpego_KF7_300.xml"/>
+		<storeItem xmlFilename="Rulli_KF7.xml"/>
+	</storeItems>
+	<brands>
+		<brand name="ALPEGO" title="Alpego" image="brand_Alpego.dds"/>
+	</brands>
+</modDesc>
