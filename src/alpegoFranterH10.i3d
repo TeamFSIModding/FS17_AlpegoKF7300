@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="alpegoFranterH10" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="7.1.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="6" filename="shaders/vehicleShader.xml" relativePath="true"/>
+    <File fileId="9" filename="shared/default_normal.dds" relativePath="true"/>
+    <File fileId="5" filename="shared/rough_cube.dds" relativePath="true"/>
+    <File fileId="8" filename="textures/alpegoKF7300Decals_diffuse.dds" relativePath="true"/>
+    <File fileId="10" filename="textures/alpegoKF7300Decals_specular.dds" relativePath="true"/>
+    <File fileId="2" filename="textures/alpegoKF7300_diffuse.dds" relativePath="true"/>
+    <File fileId="3" filename="textures/alpegoKF7300_normal.dds" relativePath="true"/>
+    <File fileId="4" filename="textures/alpegoKF7300_specular.dds" relativePath="true"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="decals_mat" materialId="9" ambientColor="1 1 1" cosPower="50" specularColor="1 1 1" alphaBlending="true" customShaderId="6">
+      <Texture fileId="8"/>
+      <Normalmap fileId="9"/>
+      <Glossmap fileId="10"/>
+      <CustomParameter name="RDT" value="1 1 20 20"/>
+    </Material>
+    <Material name="default_mat" materialId="6" diffuseColor="1 1 1 1" ambientColor="1 1 1">
+    </Material>
+    <Material name="alpego_mat" materialId="8" ambientColor="1 1 1" cosPower="50" specularColor="1 1 1" customShaderId="6">
+      <Texture fileId="2"/>
+      <Normalmap fileId="3"/>
+      <Glossmap fileId="4"/>
+      <Reflectionmap fileId="5" lodDistanceScaling="0.5" viewDistanceScaling="0.5" type="cube" scaling="1" refractiveIndex="1" bumpScale="0.5" shapesObjectMask="4294967295" lightsObjectMask="4294967295"/>
+      <CustomParameter name="RDT" value="1 1 20 20"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="alpegoFranterH10.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <Shape shapeId="1" name="alpegoFranterH10" dynamic="true" compound="true" collisionMask="8194" density="2" clipDistance="300" nodeId="25" materialIds="6" castsShadows="true" receiveShadows="true" nonRenderable="true">
+      <TransformGroup name="rulli" translation="0 1.06623 0.28129" nodeId="26">
+        <Shape shapeId="2" name="vis" rotation="-2.802 0 0" nodeId="27" materialIds="8" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="3" name="bolts" nodeId="28" materialIds="8" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="4" name="bolts" nodeId="29" materialIds="8" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="5" name="pistons" translation="0 0.353892 -0.188" rotation="90 -0 0" nodeId="30" materialIds="8" castsShadows="true" receiveShadows="true">
+            <Shape shapeId="6" name="pistons" translation="0 0 0.732498" nodeId="31" materialIds="8" castsShadows="true" receiveShadows="true"/>
+          </Shape>
+        </Shape>
+        <Shape shapeId="7" name="vis" rotation="-2.748 0 0" nodeId="32" materialIds="8" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="8" name="franter" translation="0.00348437 -0.685583 -0.154423" rotation="-20.51 -0 0" nodeId="33" materialIds="8" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="9" name="franter" translation="0.0043956 -0.862 -0.626416" rotation="-20.51 -0 0" nodeId="34" materialIds="8" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="10" name="decals" translation="0.005 -0.641 -1.022" rotation="-20.51 -0 0" clipDistance="75" nodeId="35" materialIds="9" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+          <TransformGroup name="pistonsReferencePoint" translation="0 -0.379058 -0.188" rotation="90 -0 0" nodeId="36"/>
+          <TransformGroup name="references" rotation="-18 0 0" nodeId="37">
+            <TransformGroup name="workArea" nodeId="38">
+              <TransformGroup name="start" translation="-1.5 -0.845 -0.113" nodeId="39"/>
+              <TransformGroup name="width" translation="1.5 -0.845 -0.113" nodeId="40"/>
+              <TransformGroup name="height" translation="-1.429 -0.845 -1.01249" nodeId="41"/>
+              <TransformGroup name="groundReferenceNode" translation="0 -0.9 -0.608" nodeId="42"/>
+              <TransformGroup name="depthNode" translation="0 -0.94 -0.608" nodeId="43"/>
+            </TransformGroup>
+            <TransformGroup name="ai" nodeId="44">
+              <TransformGroup name="aiMarker" nodeId="45">
+                <TransformGroup name="LeftMarker" translation="1.504 -0.845 0.027" nodeId="46"/>
+                <TransformGroup name="rightMarker" translation="-1.504 -0.845 0.027" nodeId="47"/>
+                <TransformGroup name="backMarker" translation="0 -0.845 -1.26121" nodeId="48"/>
+              </TransformGroup>
+              <TransformGroup name="sizeMarker1" nodeId="49">
+                <TransformGroup name="LeftMarker" translation="1.61 -0.845 0.255" nodeId="50"/>
+                <TransformGroup name="rightMarker" translation="-1.61 -0.845 0.255" nodeId="51"/>
+                <TransformGroup name="backMarker" translation="0 -0.845 -1.49226" nodeId="52"/>
+              </TransformGroup>
+            </TransformGroup>
+            <TransformGroup name="effects" translation="-0.0168079 -0.880235 -0.709968" nodeId="53">
+              <Shape shapeId="11" name="soilEmitter" clipDistance="100" nodeId="54" materialIds="6" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+              <Shape shapeId="12" name="smokeEmitter" clipDistance="100" nodeId="55" materialIds="6" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+              <Shape shapeId="13" name="chunkEmitter" clipDistance="100" nodeId="56" materialIds="6" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+              <Shape shapeId="13" name="chunkEmitter" clipDistance="100" nodeId="57" materialIds="6" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+            </TransformGroup>
+          </TransformGroup>
+        </Shape>
+        <TransformGroup name="attacherJoint" rotation="0 -90 0" nodeId="58"/>
+      </TransformGroup>
+      <TransformGroup name="collision" translation="0 0.345378 -0.11952" rotation="-20 -0 0" nodeId="59">
+        <Shape shapeId="14" name="collision" translation="0 -0.38836 0" compoundChild="true" density="0.2" clipDistance="300" nodeId="60" materialIds="6" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      </TransformGroup>
+    </Shape>
+  </Scene>
+
+</i3D>

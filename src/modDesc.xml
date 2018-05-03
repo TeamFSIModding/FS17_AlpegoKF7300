@@ -88,10 +88,10 @@ Changelog {package_version}
 		</text>
 	</l10n>
 	<storeItems>
-		<storeItem xmlFilename="Alpego_KF7_300.xml"/>
-		<storeItem xmlFilename="Rulli_KF7.xml"/>
+		<storeItem xmlFilename="alpegoKF7300.xml"/>
+		<storeItem xmlFilename="alpegoFranterH10.xml"/>
 	</storeItems>
 	<brands>
-		<brand name="ALPEGO" title="Alpego" image="brand_Alpego.dds"/>
+		<brand name="ALPEGO" title="Alpego" image="brand_alpego.dds"/>
 	</brands>
 </modDesc>
