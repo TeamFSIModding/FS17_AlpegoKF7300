@@ -7,23 +7,26 @@
 	</title>
 	<description>
 		<en>
-			<![CDATA[Alpego KF7-300 Super Cracker - Subsoiler with optional hydraulic franter roller.
+			<![CDATA[Alpego KF7-300 Super Cracker - Subsoiler with optional Franter H10.
 
 Price: 11000 - 2500 €
-working speed: 12 kmh
+Working speed: 12 kmh
 Required power: 160 - 40 hp
 Working width: 3 m
 Maintenance: 5 - 3 € / day
 
-Tool with double work option: with franter roller up working in depth as plough function, with franter roller down working on surface, as a cultivator.
-Franter rollers are optional and must be purchased separately in the cultivator section.
+Tool with double work option:
+1) Without Franter H10 working in depth as plough.
+2) With Franter H10 working on surface as a cultivator.
+
+Franter H10 is optional and must be purchased separately in the cultivator section.
 
 Changelog {package_version}
-- now with separated franter roller buyable as a cultivator
+- Now with Franter H10 buyable as a cultivator
 ]]>
 		</en>
 		<de>
-			<![CDATA[Alpego KF7-300 Super Cracker - Tiefenlockerer mit optionale hydraulischer Franter-Walze.
+			<![CDATA[Alpego KF7-300 Super Cracker - Untergrundlockerer mit optionalem Franter H10.
 
 Preis: 11000 - 2500 €
 Arbeitsgeschwindigkeit: 12 kmh
@@ -31,45 +34,35 @@ Benötigte Leistung: 160 - 40 hp
 Arbeitsbreite: 3 m
 Unterhaltskosten: 5 -3 € / Tag
 
-Dieses Gerät kann sowohl als Grubber, wie auch Pflug genutzt werden. Ist die Rolle oben, ist die Pflugfunktion aktiv - Ist die Rolle unten, dann wirkt der Tiefenlockerer nur als Grubber.
-Franter Walzen sind optionale und müssen separat im Grubberbereich gekauft werden.
+Werkzeug mit doppelter Arbeitsoption:
+1) Ohne Franter H10 arbeiten als Pflug in der Tiefe.
+2) Mit Franter H10 arbeitet auf der Oberfläche als Grubber.
+
+Franter H10 ist optional und muss separat im Grubberbereich erworben werden.
 
 Changelog {package_version}
-- now with separated franter roller buyable as a cultivator
+- Now with Franter H10 buyable as a cultivator
 ]]>
 		</de>
 		<fr>
-			<![CDATA[Alpego KF7-300 Super Cracker - Décompacteur équipé du double rouleau franter à réglage hydraulique en option.
+			<![CDATA[Alpego KF7-300 Super Cracker - Décompacteur avec Franter H10 en option.
 
 Price: 11000 - 2500 €
-working speed: 12 kmh
+Working speed: 12 kmh
 Required power: 160 - 40 hp
 Working width: 3 m
 Maintenance: 5 - 3 € / day
 
-Ce décompacteur a une chance de faire un double-tricot, avec des rouleaux œuvres riches en profondeur avec la fonction de charrue, avec de faibles rouleaux la profondeur de travail est réduite et la fonction est le cultivateur.
-Les rouleaux sont facultatifs et doivent être achetés séparément dans la section de cultivateur.
+Outil avec l'option de double travail:
+1) Sans Franter H10 travaillant en profondeur comme charrue.
+2) Avec Franter H10 travaillant sur la surface comme un cultivateur.
+
+Le Franter H10 est optionnel et doit être acheté séparément dans la section du cultivateur.
 
 Changelog {package_version}
-- now with separated franter roller buyable as a cultivator
+- Now with Franter H10 buyable as a cultivator
 ]]>
 		</fr>
-		<it>
-			<![CDATA[Alpego KF7-300 Super Cracker - Ripuntatore a 7 ancore con rulli franter idraulici
-
-Prezzo: 11000 - 2500 €
-velocità di lavoro: 12 kmh
-Potenza richiesta: 160 - 40 hp
-Larghezza di lavoro: 3 m
-Manutenzione giornaliera: 5 - 3 € / giorno
-
-Questo attrezzo ha la possibilità di effettuare una doppia lavorazione, con i rulli alti lavora in profondità con funzione aratro, con i rulli bassi la profondità di lavoro è ridotta e la funzione è di coltivatore;
-i rulli sono opzionali e devono essere acquistati a parte nella sezione coltivatori.
-
-Changelog {package_version}
-- now with separated franter roller buyable as a cultivator
-]]>
-		</it>
 	</description>
 	<iconFilename>icon.dds</iconFilename>
 	<multiplayer supported="true"/>
