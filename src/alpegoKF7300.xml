@@ -39,7 +39,7 @@
     <ploughSound file="$data/sounds/ploughSound.wav" pitchOffset="0.45" volume="1.2" indoorVolumeFactor="0.65"/>
     <cylinderedHydraulicSound file="$data/sounds/cultivatorHydraulic.wav" volume="1.00" indoorVolumeFactor="0.45"/>
     <inputAttacherJoints>
-        <inputAttacherJoint index="0>3" jointType="implement" topReferenceNode="0>4" lowerDistanceToGround="0.5" upperDistanceToGround="1.2" upperRotationOffset="4.5" lowerRotationOffset="22.5" canTurnOnImplement="false"/>
+        <inputAttacherJoint index="0>3" jointType="implement" topReferenceNode="0>4" lowerDistanceToGround="0.5" upperDistanceToGround="1.2" upperRotationOffset="4.5" lowerRotationOffset="14" canTurnOnImplement="false"/>
     </inputAttacherJoints>
     <onlyActiveWhenLowered value="true"/>
     <attacherJoints>
